@@ -1,15 +1,15 @@
-import { TodoListBase } from '../ui/types';
+import { ListBase } from '../ui/types';
 
-export let MOCK_TODO_LIST: TodoListBase[] = [];
+export let MOCK_LIST: ListBase[] = [];
 
 (() => {
   for (let i = 0; i < 5; i++) {
-    const todo: TodoListBase = {
+    const listData: ListBase = {
       id: i + 1,
       title: `タイトル${i + 1}`,
       description: `ディスクリプション${i + 1}`,
     };
 
-    MOCK_TODO_LIST.push(todo);
+    MOCK_LIST.push(listData);
   }
 })();

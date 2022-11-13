@@ -1,6 +1,5 @@
 import React from 'react';
 import { Input, InputProps } from 'antd';
-import 'antd/dist/antd.css';
 
 interface Props extends InputProps {}
 

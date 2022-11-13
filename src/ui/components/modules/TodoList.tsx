@@ -1,17 +1,15 @@
 import React from 'react';
 import { List } from 'antd';
-import 'antd/dist/antd.css';
 import { TodoListBase } from '../../types';
 
 interface Props {
   todoList: TodoListBase[];
-  header: string;
 }
 
-export const TodoList = ({ todoList, header }: Props) => {
+export const TodoList = ({ todoList }: Props) => {
   return (
     <List
-      header={<b>{header}</b>}
+      header={<b>TODO</b>}
       bordered
       dataSource={todoList}
       renderItem={(todo) => (

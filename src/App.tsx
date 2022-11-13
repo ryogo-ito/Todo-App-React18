@@ -9,6 +9,7 @@ export const App = () => {
         todoList={MOCK_LIST}
         onEditButtonClick={() => {}}
         onDeleteButtonClick={() => {}}
+        onAddButtonClick={() => {}}
       />
     </div>
   );

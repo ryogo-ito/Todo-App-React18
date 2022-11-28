@@ -1,4 +1,4 @@
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.less';
 import { MOCK_LIST } from './mock/list';
 import { Todo } from './pages/todo/Todo';
 

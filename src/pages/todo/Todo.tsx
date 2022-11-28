@@ -21,6 +21,7 @@ export const Todo = ({
   return (
     <>
       <LayoutTemplate
+        // TODO headerコンポーネントを配置する
         headerChildren={<h1>ヘッダー</h1>}
         contentChildren={
           <>

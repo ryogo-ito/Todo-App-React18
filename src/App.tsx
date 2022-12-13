@@ -1,15 +1,15 @@
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.less';
 import { MOCK_LIST } from './mock/list';
-import { EditList } from './ui/components/modules/EditList';
+import { Todo } from './pages/todo/Todo';
 
 export const App = () => {
   return (
     <div>
-      <EditList
-        list={MOCK_LIST}
-        headerText={'todo'}
-        onEditButtonClick={() => alert('編集')}
-        onDeleteButtonClick={() => alert('削除')}
+      <Todo
+        todoList={MOCK_LIST}
+        onEditButtonClick={() => {}}
+        onDeleteButtonClick={() => {}}
+        onAddButtonClick={() => {}}
       />
     </div>
   );

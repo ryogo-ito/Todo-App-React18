@@ -3,3 +3,5 @@ export interface ListBase {
   title: string;
   description: string;
 }
+
+export interface TodoList extends ListBase {}
